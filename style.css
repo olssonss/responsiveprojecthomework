@@ -87,9 +87,6 @@ p {
   text-decoration: underline;
 }
 @media screen and (max-width: 576px) {
-  .pictures {
-    display: none;
-  }
   h1 {
     font-size: 50px;
     padding: 10px;
@@ -100,8 +97,19 @@ p {
   h3 {
     padding: 10px;
   }
+  p {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 
   .container {
     text-align: center;
+  }
+  .pictures {
+    display: none;
   }
 }
